@@ -22,7 +22,7 @@
         title="苦熬苦夜让人无奈的低代码项目"
         description="一个苦熬苦夜让人无奈的低代码项目，苦熬苦夜让人无奈的低代码项目，苦熬苦夜让人无奈的低代码项目，苦熬苦夜让人无奈的低代码项目" 
       />
-      <resume-block-item 
+      <resume-block-item
         title="苦熬苦夜让人无奈的低代码项目"
         description="一个苦熬苦夜让人无奈的低代码项目，苦熬苦夜让人无奈的低代码项目，苦熬苦夜让人无奈的低代码项目，苦熬苦夜让人无奈的低代码项目" 
       />
@@ -73,6 +73,10 @@
 @media print {
   * {
     box-shadow: none !important;
+  }
+
+  .print-disabled {
+    display: none !important;
   }
 }
 

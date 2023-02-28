@@ -2,6 +2,10 @@
 function handlePrint() {
   window.print()
 }
+
+function handleGithub() {
+  window.open('https://github.com/varletjs/varlet-resume')
+}
 </script>
 
 <template>
@@ -10,8 +14,11 @@ function handlePrint() {
     image-linear-gradient="to right top, rgba(72, 151, 221, 1) 0%, rgba(47, 0, 208, 0.1) 100%"
   >
     <template #right>
-      <var-button class="resume-app-bar-print" round text color="transparent" text-color="#fff" @click="handlePrint">
+      <var-button class="print-disabled" style="margin-top: 2px; margin-right: 4px;" round text color="transparent" text-color="#fff" @click="handlePrint">
         <var-icon name="download" :size="30" />
+      </var-button>
+      <var-button class="print-disabled" style="margin-right: 10px" round text color="transparent" text-color="#fff" @click="handleGithub">
+        <var-icon name="github" :size="30" />
       </var-button>
     </template>
 
@@ -45,11 +52,7 @@ function handlePrint() {
 
 <style lang="less" scoped>
 .resume-app-bar {
-  &-print {
-    margin-top: 6px;
-    margin-right: 6px;
-  }
-
+  
   &-content {
     display: flex;
     justify-content: center;

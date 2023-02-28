@@ -36,6 +36,7 @@ declare module '@vue/runtime-core' {
     VarPaper: typeof import('@varlet/ui')['_PaperComponent']
     VarProgress: typeof import('@varlet/ui')['_ProgressComponent']
     VarRow: typeof import('@varlet/ui')['_RowComponent']
+    VarSpace: typeof import('@varlet/ui')['_SpaceComponent']
     VarStep: typeof import('@varlet/ui')['_StepComponent']
     VarSteps: typeof import('@varlet/ui')['_StepsComponent']
   }

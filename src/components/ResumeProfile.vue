@@ -74,7 +74,7 @@
               <span>掘金: 有出彩的文章可以贴上</span>
             </div>
           </var-cell>
-          <var-cell :border-offset="0" border>
+          <var-cell :border-offset="0">
             <div class="resume-profile-cell">
               <icon-github class="resume-profile-icon" />
               <span>Github: 经常参与开源贡献会加分的</span>
