@@ -1,5 +1,7 @@
 # VARLET RESUME
 
+English | [中文](https://github.com/varletjs/varlet-resume/blob/main/README.zh-CN.md)
+
 A resume template based on [Varlet](https://github.com/varletjs/varlet)
 
 ## Try it Now!

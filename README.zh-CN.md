@@ -1,5 +1,7 @@
 # VARLET RESUME
 
+[English]((https://github.com/varletjs/varlet-resume/blob/main/README.md)) | 中文
+
 一个基于 [Varlet](https://github.com/varletjs/varlet) 开发的简历模板
 
 ## 尝试一下
