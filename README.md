@@ -6,6 +6,10 @@ A resume template based on [Varlet](https://github.com/varletjs/varlet)
 
 ## Try it Now!
 
+### Online Preview
+
+[Varlet Resume Online Preview](https://varletjs.github.io/varlet-resume/)
+
 ### Github Template
 
 [Create a repo from this template on GitHub.](https://github.com/varletjs/varlet-resume/generate)

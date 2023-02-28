@@ -6,6 +6,10 @@
 
 ## 尝试一下
 
+### 在线预览
+
+[在线预览简历模板](https://varletjs.github.io/varlet-resume/)
+
 ### 通过 Github 模板使用
 
 [通过该模板仓库创建一个你的简历仓库](https://github.com/varletjs/varlet-resume/generate)
