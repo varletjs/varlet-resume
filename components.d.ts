@@ -7,7 +7,6 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    copy: typeof import('./src/components/ResumeFill.vue')['default']
     IconAccountGroup: typeof import('./src/components/icons/iconAccountGroup.vue')['default']
     IconCake: typeof import('./src/components/icons/IconCake.vue')['default']
     IconCalendar: typeof import('./src/components/icons/IconCalendar.vue')['default']
