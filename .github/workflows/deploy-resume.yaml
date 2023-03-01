@@ -28,7 +28,7 @@ jobs:
       - name: Build resume
         run: pnpm build
 
-      - name: Deploy site
+      - name: Deploy resume
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-page
