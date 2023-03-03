@@ -22,6 +22,7 @@ declare module '@vue/runtime-core' {
     ResumeAppBar: typeof import('./src/components/ResumeAppBar.vue')['default']
     ResumeBlank: typeof import('./src/components/ResumeBlank.vue')['default']
     ResumeBlock: typeof import('./src/components/ResumeBlock.vue')['default']
+    ResumeBlockCompactItem: typeof import('./src/components/ResumeBlockCompactItem.vue')['default']
     ResumeBlockItem: typeof import('./src/components/ResumeBlockItem.vue')['default']
     ResumeFill: typeof import('./src/components/ResumeFill.vue')['default']
     ResumeProfile: typeof import('./src/components/ResumeProfile.vue')['default']
