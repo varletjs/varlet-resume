@@ -7,8 +7,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@varlet/touch-emulator": "^2.9.0",
-    "@varlet/ui": "2.9.0",
+    "@varlet/touch-emulator": "^2.9.2",
+    "@varlet/ui": "^2.9.2",
     "vue": "^3.2.41"
   },
   "devDependencies": {
