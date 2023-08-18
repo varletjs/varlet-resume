@@ -8,8 +8,8 @@
     "bump": "pnpm update @varlet/touch-emulator @varlet/ui"
   },
   "dependencies": {
-    "@varlet/touch-emulator": "^2.13.6",
-    "@varlet/ui": "^2.13.6",
+    "@varlet/touch-emulator": "^2.14.2",
+    "@varlet/ui": "^2.14.2",
     "vue": "^3.2.41"
   },
   "devDependencies": {
