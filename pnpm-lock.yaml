@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@varlet/touch-emulator':
-    specifier: ^2.18.0
-    version: 2.18.0
+    specifier: ^2.18.1
+    version: 2.18.1
   '@varlet/ui':
-    specifier: ^2.18.0
-    version: 2.18.0(vue@3.2.45)
+    specifier: ^2.18.1
+    version: 2.18.1(vue@3.2.45)
   vue:
     specifier: ^3.2.41
     version: 3.2.45
@@ -322,38 +322,38 @@ packages:
     resolution: {integrity: sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==}
     dev: true
 
-  /@varlet/icons@2.18.0:
-    resolution: {integrity: sha512-4amMsHiExNUYq8pyz1llhr9zvlvQRpxyUI7C04uZtE4UO+UOaIPbMHFNp/lwxO/WvwDKyglLWpiWjqZzPSV7bg==}
+  /@varlet/icons@2.18.1:
+    resolution: {integrity: sha512-wxY7n/pq8KAu5m+LTnuEXaK8g6UWPEQG1LwK2vdcNlAZL85OpQjmkUKEK9MPzaTQbYzF25hR6TU0zfHL7Cw6/A==}
     dev: false
 
-  /@varlet/shared@2.18.0:
-    resolution: {integrity: sha512-D0Zj+ks3PEJIPu1o6Dbfyk+PLYXcyCCfsGzOGFv2nINwOlWOtKszCRX8E86592+IH77YQpKmvJidK4RidWJ5/g==}
+  /@varlet/shared@2.18.1:
+    resolution: {integrity: sha512-PLVV3QAPh9PasE0CHCouGXNW+IWeoiDsRMiY27uw6RKvcq04PD/73s+66o7OVakNzwOuHG6HFjUqDCxug+ET3Q==}
     dev: false
 
-  /@varlet/touch-emulator@2.18.0:
-    resolution: {integrity: sha512-QuVc7Eh2WBVwG1cor2vKjhzng50vm1ZZzuJk3GrrE1bhirm0Gksuc7QMdCcSQwZOtheUzTvu6h5OUUbDgqPyFA==}
+  /@varlet/touch-emulator@2.18.1:
+    resolution: {integrity: sha512-2pzsEPMAjR6UXCLzFVKKgkvIdblrkir3FNl/SrTRWZl0LpLmRRu9VUS1a//k7lbx6/jt+lfexPCnIKZIgy4Dww==}
     dev: false
 
-  /@varlet/ui@2.18.0(vue@3.2.45):
-    resolution: {integrity: sha512-Y5AEfkiWEaALs7jXTmMJ1b2G82J5nvt0MKUcDV9JRJKFdwG4LSr+JgybTOfdbIEOPUxvdWbenhTiFxSwryKLdg==}
+  /@varlet/ui@2.18.1(vue@3.2.45):
+    resolution: {integrity: sha512-btUNl2S+CkAC2yLY4rsMQViuEc/MReHbu+OfkPkSAEIvAotQ5kAdcWhOTAwIlnOY9TUdpzDI+WcYCrv96EOxew==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
       '@popperjs/core': 2.11.6
-      '@varlet/icons': 2.18.0
-      '@varlet/shared': 2.18.0
-      '@varlet/use': 2.18.0(vue@3.2.45)
+      '@varlet/icons': 2.18.1
+      '@varlet/shared': 2.18.1
+      '@varlet/use': 2.18.1(vue@3.2.45)
       dayjs: 1.11.7
       decimal.js: 10.4.3
       vue: 3.2.45
     dev: false
 
-  /@varlet/use@2.18.0(vue@3.2.45):
-    resolution: {integrity: sha512-TLlOXl09iV6hAwa/EyY7dqBnkyrxdivEoCEwKQ3Z9++Hy4foC2GApDD5kMEzblzwRTF+qghU5Pl48agECFzemg==}
+  /@varlet/use@2.18.1(vue@3.2.45):
+    resolution: {integrity: sha512-xSrPK22poyTqWfSRYeLOuqvVPdyvWs92Q/w6tH4eqLiTm5aqRHsxua4nCLGYWW55GXI41jYYxDBi9MGsnU1x5Q==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
-      '@varlet/shared': 2.18.0
+      '@varlet/shared': 2.18.1
       vue: 3.2.45
     dev: false
 
