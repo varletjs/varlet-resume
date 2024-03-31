@@ -11,7 +11,7 @@ defineProps({
 
 <template>
   <div class="resume-block">
-    <var-paper class="resume-block-paper" :elevation="2" :radius="4">
+    <var-paper class="resume-block-paper" :elevation="2">
       <div class="resume-block-header" v-if="title || subtitle">
         <slot name="title">
           <div class="resume-block-title">

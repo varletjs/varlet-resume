@@ -70,6 +70,7 @@ const companies = ref([
 
   &-description {
     color: #555;
+    min-height: 60px;
   }
 }
 </style>

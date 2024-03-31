@@ -1,8 +1,8 @@
 <template>
   <div class="resume-profile">
-    <var-row :gutter="20">
+    <var-row :gutter="30">
       <var-col justify="center" :span="12" :xs="24">
-        <var-paper class="resume-profile-paper" :elevation="2" :radius="4">
+        <var-paper class="resume-profile-paper" :elevation="2">
           <var-cell :border-offset="0" border>
             <div class="resume-profile-cell">
               <icon-cake class="resume-profile-icon" />
@@ -43,7 +43,7 @@
       </var-col>
 
       <var-col :span="12" :xs="24">
-        <var-paper class="resume-profile-paper" :elevation="2" :radius="4">
+        <var-paper class="resume-profile-paper" :elevation="2">
           <var-cell :border-offset="0" border>
             <div class="resume-profile-cell">
               <icon-phone class="resume-profile-icon" />

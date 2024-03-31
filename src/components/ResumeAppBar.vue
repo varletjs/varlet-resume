@@ -11,15 +11,33 @@ function handleGithub() {
 <template>
   <var-app-bar
     image="@/assets/material.jpg"
-    image-linear-gradient="to right top, rgba(72, 151, 221, 1) 0%, rgba(47, 0, 208, 0.1) 100%"
+    :elevation="0"
   >
     <template #right>
-      <var-button class="print-disabled" style="margin-top: 2px; margin-right: 4px;" round text color="transparent" text-color="#fff" @click="handlePrint">
-        <var-icon name="download" :size="30" />
-      </var-button>
-      <var-button class="print-disabled" style="margin-right: 10px" round text color="transparent" text-color="#fff" @click="handleGithub">
-        <var-icon name="github" :size="30" />
-      </var-button>
+      <div class="resume-app-bar-right">
+        <var-space>
+          <var-button
+            class="print-disabled"
+            type="danger"
+            :elevation="0"
+            icon-container
+            round
+            @click="handlePrint"
+          >
+            <var-icon name="download" :size="30" />
+          </var-button>
+          <var-button
+            class="print-disabled"
+            type="danger"
+            :elevation="0"
+            icon-container
+            round
+            @click="handleGithub"
+          >
+            <var-icon name="github" :size="30" />
+          </var-button>
+        </var-space>
+      </div>
     </template>
 
     <template #content>
@@ -28,6 +46,7 @@ function handleGithub() {
           <var-row :gutter="20">
             <var-col :span="8" :xs="24" justify="center">
               <var-avatar
+                class="resume-app-bar-content-avatar"
                 :size="180"
                 bordered
                 src="@/assets/avatar.jpg"
@@ -52,7 +71,11 @@ function handleGithub() {
 
 <style lang="less" scoped>
 .resume-app-bar {
-  
+  &-right {
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+
   &-content {
     display: flex;
     justify-content: center;
@@ -60,25 +83,27 @@ function handleGithub() {
 
   &-content-inner {
     width: 760px;
-    padding: 30px 20px 70px;
+    padding: 40px 20px 80px;
   }
 
   &-name {
     font-size: 36px;
     margin-top: 10px;
     font-weight: bold;
+    color: #333;
   }
 
   &-job {
     font-size: 20px;
     margin-top: 6px;
     padding: 0 3px;
+    color: #333;
   }
 
   &-description {
     font-size: 15px;
     margin-top: 20px;
-    color: #eee;
+    color: #333;
     line-height: 24px;
     padding: 0 3px;
   }

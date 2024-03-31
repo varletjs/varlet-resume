@@ -1,7 +1,7 @@
 import vue from '@vitejs/plugin-vue'
 import components from 'unplugin-vue-components/vite'
 import autoImport from 'unplugin-auto-import/vite'
-import { VarletUIResolver } from 'unplugin-vue-components/resolvers'
+import { VarletImportResolver } from '@varlet/import-resolver'
 import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 
@@ -20,11 +20,11 @@ export default defineConfig({
     }),
 
     components({
-      resolvers: [VarletUIResolver()]
+      resolvers: [VarletImportResolver()]
     }),
     
     autoImport({
-      resolvers: [VarletUIResolver({ autoImport: true })],
+      resolvers: [VarletImportResolver({ autoImport: true })],
     })
   ],
 

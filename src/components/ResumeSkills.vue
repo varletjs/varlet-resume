@@ -55,17 +55,15 @@ const skills = ref([
         <var-progress
           mode="circle"
           label
-          line-width="5"
+          :line-width="8"
           :value="s.value"
-          :size="74"
+          :size="100"
         >
           <span class="resume-skills-value">{{ s.value }}</span>
         </var-progress>
         <span class="resume-skills-label">{{ s.label }}</span>
       </var-col>
     </var-row>
-
-    <resume-fill :size="65"/>
   </resume-block>
 </template>
 
@@ -78,26 +76,18 @@ const skills = ref([
     padding: 20px;
   }
 
-  &-title {
-    font-size: 18px;
-    padding-bottom: 18px;
-    padding-left: 2px;
-    margin-bottom: 30px;
-    border-bottom: thin solid #ddd;
-  }
-
   &-label {
-    margin-top: 10px;
-    font-size: 16px;
+    margin-top: 20px;
+    font-size: 18px;
     color: #666;
   }
 
   &-value {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   &-chart {
-    margin: 10px 0;
+    margin: 20px 0;
   }
 }
 </style>
