@@ -8,13 +8,13 @@
     "bump": "pnpm update @varlet/* --latest"
   },
   "dependencies": {
-    "@varlet/touch-emulator": "^3.2.2",
-    "@varlet/ui": "^3.2.2",
+    "@varlet/touch-emulator": "^3.2.5",
+    "@varlet/ui": "^3.2.5",
     "vue": "^3.4.21"
   },
   "devDependencies": {
-    "@varlet/import-resolver": "^3.2.2",
     "@types/node": "^16.11.68",
+    "@varlet/import-resolver": "^3.2.5",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/test-utils": "^2.2.7",
     "@vue/tsconfig": "^0.1.3",
